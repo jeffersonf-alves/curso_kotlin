@@ -1,19 +1,10 @@
 
-
-
 fun main() {
-    var nome: String = "Jefferson"
-    val nome01 = "Jose"
-    println("Ola Mundo")
+    println("Digite seu nome: ")
+    var nome = readLine()
 
-    fun soma(a: Int, b: Int): Int {
-        return a + b
-    }
+    println("Digite sua idade: ")
+    var idade = readLine()?.toInt()
 
-    fun chamaPalavra(palavra : String) {
-        println(palavra.length)
-
-    }
-
-    println(soma(2, 1))
+    println("Seu nome é $nome e sua idade é $idade")
 }
